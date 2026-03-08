@@ -8,7 +8,7 @@ issuer_id = 609378
 amount = 3
 expect_volume = 26
 
-concurrency = 10
+concurrency = 6
 max_duration_seconds = 1200
 
 # false = ignore SSL cert validation (same as old scripts)

@@ -1,0 +1,25 @@
+# TimeStore unified config
+# Copy this file to config.toml and fill real values.
+
+auth_token = "Bearer REPLACE_ME"
+feishu_url = "https://open.feishu.cn/open-apis/bot/v2/hook/REPLACE_ME"
+
+issuer_id = 609378
+amount = 3
+expect_volume = 26
+
+concurrency = 10
+max_duration_seconds = 1200
+
+# false = ignore SSL cert validation (same as old scripts)
+verify_ssl = false
+
+# seconds between market-open checks for mode=rush_after_open
+open_check_interval_seconds = 0.2
+
+# target market API type param
+market_type = 0
+
+# sell_all_when_target.py options
+sell_min_accept_amount = 2000
+sell_check_interval_seconds = 1
